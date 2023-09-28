@@ -24,9 +24,8 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, lightgreen,violet,#23a6d5);
+    background: black;
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
     height: 100vh;
   }
   
@@ -268,22 +267,4 @@
     color: var(--violet);
   }
 
-  .ImageBG1 {
-    position: relative;
-}
-.ImageBG1 img {
-    position: absolute;
-    bottom: 160px;
-
-    height: 120px;
-    left: 700px;
-}
-.ImageBG2 {
-  position: relative;
-}
-.ImageBG2 img {
-  position: absolute;
-  right: -100px;
-  top: -150px;
-  width: 300;
-}
+  
